@@ -1,0 +1,51 @@
+.incomeTaxReturnContainer {
+  min-height: 100vh;
+
+  .borderedBox {
+    border: 1px solid black;
+  }
+
+  .headerRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .formHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    p {
+      margin: 0;
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      font-weight: bold;
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 60px;
+    }
+  }
+
+  .formHeadingRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      font-weight: bolder;
+    }
+  }
+
+  .rightHeaderRow {
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    
+
+    h1 {
+      font-weight: bold;
+      font-size: 60px;
+    }
+  }
+}

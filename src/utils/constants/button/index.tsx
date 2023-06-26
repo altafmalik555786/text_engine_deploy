@@ -1,0 +1,6 @@
+export const CAP_SUBMIT = "Submit"
+export const CAP_CANCEL = "Cancel"
+export const CAP_SEND = "Send"
+export const CAP_CLOSE = "Close"
+export const CAP_CONFIRM = "Confirm"
+export const CAP_DOWNLOAD = "Download"

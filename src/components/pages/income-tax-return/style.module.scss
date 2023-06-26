@@ -1,0 +1,95 @@
+.incomeTaxReturnContainer {
+  min-height: 100vh;
+
+  .borderedBox {
+    border: 1px solid black;
+  }
+
+  .borderedBoxHeaderRight {
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .headerRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .formHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    p {
+      margin: 0;
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      font-weight: bold;
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 60px;
+    }
+  }
+
+  .formHeadingRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      font-weight: bolder;
+    }
+  }
+
+  .rightHeaderRow {
+    display: flex;
+    text-align: center;
+
+    h1 {
+      font-weight: bold;
+      font-size: 60px;
+      text-align: center;
+    }
+    p {
+      padding: 10px;
+    }
+  }
+
+  .checkBoxContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 0px;
+
+    :global(.ant-form-item) {
+      margin-top: 10px;
+      width: 90%;
+      :global(.ant-checkbox-group) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    }
+
+    .fillingStatus {
+      margin-left: 25px;
+    }
+
+    
+  }
+
+  .fieldContainer {
+    :global(.ant-form-item) {
+        width: 100%;
+    }
+    :global(.ant-row) {
+        padding: 20px;
+        border: 1px solid black;
+    }
+  }
+}
